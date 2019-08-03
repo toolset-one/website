@@ -10,4 +10,4 @@ deploy:
   provider: firebase
   token:
     secure: "$FIREBASE_TOKEN"
-  project: "toolset-one-website"
+  project: "toolset-one-web"
