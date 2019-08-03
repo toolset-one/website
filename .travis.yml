@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+script:
+  -
+install:
+  -
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"
+  project: "toolset-one-website"
