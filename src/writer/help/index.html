@@ -1,0 +1,48 @@
+@@include('../../partials/html-header.tpl')
+
+@@include('../../partials/main-nav.tpl', {
+	"active": "writer"
+})
+
+<main>
+	@@include('../../modules/intro.tpl', {
+		"title": "Writer",
+		"description": "Write texts in a distraction-free app and sync them across all you devices.",
+		"hasButton": true,
+		"button": {
+			"title": "Go to the writer app",
+			"link": "https://writer.toolset.one/"
+		}
+	})
+
+
+	@@include('../../partials/sub-nav.tpl', {
+		"navItems": [{
+			"title": "Overview",
+			"link": "/writer/",
+			"active": ""
+		}, {
+			"title": "Help",
+			"link": "/writer/help/",
+			"active": "class=active"
+		}]
+	})
+
+
+	@@include('../../modules/help.tpl', {
+		"questions": [{
+			"question": "Is the writer free?",
+			"answer": "Yes, it does not cost anything and won't cost you anything ever if you sign up now."
+		}, {
+			"question": "How can I sign up after adding it to the iOS homescreen?",
+			"answer": "This is not possible right now. But it is on my roadmap."
+		}]
+	})
+
+</main>
+
+<!-- build:remove -->
+<span id="browser-sync-binding"></span>
+<!-- endbuild -->
+
+@@include('../../partials/html-footer.tpl')

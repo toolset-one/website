@@ -1,0 +1,33 @@
+@@include('partials/html-header.tpl')
+
+@@include('partials/main-nav.tpl', {
+	"active": "home"
+})
+
+<main>
+	@@include('modules/intro.tpl', {
+		"title": "Toolset.One",
+		"description": "This website provides different tiny tools to solve problems for persons on their own. Please have a look at the tools available below.",
+		"hasButton": false
+	})
+
+	<hr style="max-width:600px;margin:0 auto 60px auto;border:0;height:1px;background-color:rgba(0, 0, 0, .1)" />
+
+	<h4 style="max-width:660px;margin:30px auto 12px auto; padding:0 30px;">
+		Writer
+	</h4>
+
+	<p style="max-width:660px;margin:0 auto 30px auto; padding:0 30px;">
+		Write texts in a distraction-free app and sync them across all you devices.<br />
+		<a href="/writer/">
+			Click here for more infos
+		</a>
+	</p>
+
+</main>
+
+<!-- build:remove -->
+<span id="browser-sync-binding"></span>
+<!-- endbuild -->
+
+@@include('partials/html-footer.tpl')

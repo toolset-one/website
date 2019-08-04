@@ -1,0 +1,83 @@
+/* HEADLINES */
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    font-weight: 400;
+    position: relative;
+    font-family: vollkorn, serif;
+    color: $color-grey;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    a {
+        color: inherit;
+    }
+}
+
+h2, .h2 {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+h3, .h3 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+h4, .h4 {
+    font-family:overpass, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+p, .p {
+    display: block;
+    position: relative;
+    font-size: 16.5px;
+    line-height: 30px;
+    font-weight: 400;
+    color: $color-grey;
+    font-family: overpass, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    a {
+        color:blue;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+table {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: #000;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+code {
+    font-size: 14px;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul, ol {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    color: #12171A;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+button, input, textarea {
+    font-family: overpass, sans-serif;
+}

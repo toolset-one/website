@@ -1,0 +1,18 @@
+.btn {
+    -webkit-appearance: none;
+    display: inline-block;
+    border-radius: 6px;
+    background:#FFF;
+    border:#CCC9C4 1px solid;
+    box-shadow: 0 6px 0 -3px rgba(0, 0, 0, .05);
+    padding:0 18px;
+    font-size:14px;
+    line-height:40px;
+    font-weight:600;
+    transition: all 200ms ease;
+    color:#26231E;
+
+    &:hover {
+        border-color:blue;
+    }
+}

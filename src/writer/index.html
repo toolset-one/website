@@ -1,0 +1,41 @@
+@@include('../partials/html-header.tpl')
+
+@@include('../partials/main-nav.tpl', {
+	"active": "writer"
+})
+
+<main>
+	@@include('../modules/intro.tpl', {
+		"title": "Writer",
+		"description": "Write texts in a distraction-free app and sync them across all you devices.",
+		"hasButton": true,
+		"button": {
+			"title": "Go to the writer app",
+			"link": "https://writer.toolset.one/"
+		}
+	})
+
+
+	@@include('../partials/sub-nav.tpl', {
+		"navItems": [{
+			"title": "Overview",
+			"link": "/writer/",
+			"active": "class=active"
+		}, {
+			"title": "Help",
+			"link": "/writer/help/",
+			"active": ""
+		}]
+	})
+
+	<p style="max-width:660px;margin:30px auto; padding:0 30px;">
+		The Toolset.One Writer let's you write texts and store them in one place. You can connect all your devices to the service and have your texts with you. The app just does the bare minimum and with this is distraction-free. You don't have to pay a dime to use it.
+	</p>
+
+</main>
+
+<!-- build:remove -->
+<span id="browser-sync-binding"></span>
+<!-- endbuild -->
+
+@@include('../partials/html-footer.tpl')

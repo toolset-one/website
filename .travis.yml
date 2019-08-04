@@ -4,7 +4,8 @@ node_js:
 script:
   -
 install:
-  -
+  - "npm install"
+  - "gulp build"
 deploy:
   skip_cleanup: true
   provider: firebase
