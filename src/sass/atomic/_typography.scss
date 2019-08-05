@@ -54,6 +54,18 @@ p, .p {
     }
 }
 
+time {
+    display: block;
+    position: relative;
+    font-size: 13.2px;
+    line-height: 18px;
+    font-weight: 400;
+    color: $color-grey;
+    font-family: overpass, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 table {
     font-size: 16px;
     line-height: 1.25;
