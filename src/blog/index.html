@@ -1,0 +1,21 @@
+@@include('../partials/html-header.tpl')
+
+@@include('../partials/main-nav.tpl', {
+	"active": "blog"
+})
+
+<main>
+	@@include('../modules/intro.tpl', {
+		"title": "Blog",
+		"description": "Some thoughts about the toolset.one apps, working, productivity and tech in general.",
+		"hasButton": false
+	})
+
+	<hr />
+</main>
+
+<!-- build:remove -->
+<span id="browser-sync-binding"></span>
+<!-- endbuild -->
+
+@@include('../partials/html-footer.tpl')

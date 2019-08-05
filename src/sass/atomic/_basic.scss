@@ -72,4 +72,13 @@ figure {
 
 main {
     margin: 0 auto;
+    max-width:660px;
+    padding:0 30px;
+
+    >hr {
+        margin:0 auto 30px auto;
+        border:0;
+        height:1px;
+        background-color:rgba(0, 0, 0, .1)
+    }
 }
